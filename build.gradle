@@ -1,0 +1,11 @@
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+        mavenLocal()
+    }
+
+    group = 'com.mentoring.gradle'
+    version = '1.0-SNAPSHOT'
+    sourceCompatibility = 1.6
+}
